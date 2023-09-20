@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Tic-tac-toe</h1>
+    </div>
+    <div class="game-board-container">
+        <div class="game-board">
+            <div class = "tile" data-row = "0" data-col = "0" >O</div>
+            <div class = "tile" data-row = "0" data-col = "1">X</div>
+            <div class = "tile" data-row = "0" data-col = "2"></div>
+            <div class = "tile" data-row = "1" data-col = "0"></div>
+            <div class = "tile" data-row = "1" data-col = "1"></div>
+            <div class = "tile" data-row = "1" data-col = "2"> </div>
+            <div class = "tile" data-row = "2" data-col = "0"></div>
+            <div class = "tile" data-row = "2" data-col = "1"></div>
+            <div class = "tile" data-row = "2" data-col = "2"></div>
+        </div>
+    </div>
+    <div class = "bottom-menu">
+        <div class="menu-left">
+            <button class = "restart">Restart</button>
+        </div>
+        <div class = "menu-right">
+            <button class=chooseXO-btn >Choose your letter</button>
+            <div class = "chooseXO closed">
+                <button id = "X-btn">X</button>
+                <button id = "O-btn">O</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
